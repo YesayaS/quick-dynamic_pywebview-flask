@@ -20,5 +20,5 @@ if __name__ == "__main__":
     # screen_width, screen_height = get_screen_size()
     stream = StringIO()
     with redirect_stdout(stream):
-        window = webview.create_window("My first pywebview application", server)
+        window = webview.create_window("Quick Dynamic", server)
         webview.start(debug=True)
